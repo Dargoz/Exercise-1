@@ -1,0 +1,82 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#bg{
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/image12.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+#mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+#container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 2;
+}
+
+.content{
+    width: 50%;
+}
+
+img{
+    display: block;
+    width: 300px;
+    margin: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1{
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 4em;
+}
+
+.row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 2em;
+}
+
+.column-title{
+    width: 30%
+}
+
+.column-value{
+    width: 69%
+}
+.row>div:nth-child(2){
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
